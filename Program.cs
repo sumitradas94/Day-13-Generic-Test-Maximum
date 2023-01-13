@@ -29,8 +29,11 @@
             //  Max3Parameter<int> obj = new Max3Parameter<int>(66, 99, 92);
             // obj.MaxMethod();
 
-            PrintMax<int> obj = new PrintMax<int>(66, 99, 92);
-            obj.MaxMethod();
+            //  PrintMax<int> obj = new PrintMax<int>(66, 99, 92);
+            // obj.MaxMethod();
+
+            int num = Genericvariable<int>.MaxNumber(9, 77, 200);
+            Console.WriteLine("The greater Integer number is : " + num);
         }
 }
 }
